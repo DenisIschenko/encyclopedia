@@ -1,0 +1,81 @@
+
+root { 
+    display: block;
+}
+
+.letter_big, .letter_big a {
+    font-size: 62px;
+    font-family: 'ubunturegular';
+    color: #00c2f2;
+    text-transform: uppercase;
+    font-weight: normal;          
+}
+.letter_big a {
+  line-height: 1;
+}
+.letter_big {
+   background: url(img/border.png) repeat-x 0 100%;
+   width: 50px;
+}
+.href_to_encyclopedy a {
+    color: #3F290C;
+    display: block;
+    font-size: 14px;    
+    font-family: 'ubunturegular';
+    margin-bottom: 15px;
+}
+.href_to_encyclopedy {
+    margin: 10px 0 0;
+}
+.enciclopedy_one .one_letter{
+    width: 100%;
+}
+.one_letter {
+    width: 220px;
+    margin:  0 12px;
+    float: left;
+    min-height: 210px;
+    margin-bottom: 20px;
+}
+.enciclopedy_all, .enciclopedy_one {
+    margin-top: 45px;
+    display: block;    
+    position: relative;
+    float: left;
+    z-index: 5;
+}
+.href_to_encyclopedy a.see_more {
+    color: #6b9903!important;
+    margin-top: 10px;
+}
+.colom_count {
+    display: block;
+    float: left;
+    margin-right: 25px;
+    width: 155px;
+}
+.enciclopedy_one {
+    margin-bottom: 30px;
+}
+.right_colom {
+    width: 170px;
+    display: block;
+    float: left;
+    margin-top: 80px; 
+    margin-right: -45px
+}
+.right_colom h2 {
+    font-family: 'galscregular';
+    font-size: 24px;
+    color: #3f290c;
+    margin-bottom: 20px;
+}
+.right_colom a {
+    display: block;
+    margin: 10px 0;
+    font-size: 15px;
+    line-height: 150%
+}
+.right_colom p {
+    margin: 0!important;
+}
